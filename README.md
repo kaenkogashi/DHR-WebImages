@@ -18,5 +18,6 @@ B&B, B&BP, BP&BP: "B&B" denotes DHR instances in which, for both people, at leas
 DHR_Verb_Ids are numbers from 1 to 51.
 1: punch
 2: kick
+・・・
 51: others
 
