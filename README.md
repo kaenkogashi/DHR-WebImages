@@ -2,6 +2,7 @@
 We introduce the Dyadic Human Relation Web-Based Still Images Dataset (DHR-WebImages) which contains 51 verb classes of DHR (Dyadic Human Relation Recognition) we encounter in our daily lives.
 
 This ReadMe explains DHR-WebImages dataset's CSV headers (DHR.csv). The total DHR instances are XX.
+This note is under construction.
 
 Image_ID: image id of DHR
 
