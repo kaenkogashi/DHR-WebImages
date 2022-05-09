@@ -17,6 +17,7 @@ S-S, S-0: S-S denotes subjective-subjective and S-O denotes subjective-objective
 B&B, B&BP, BP&BP: "B&B" denotes DHR instances in which, for both people, at least half of their bodies are visible. "B&BP" denotes cases where at least half of one person's body is visible and less than half of the other person's body visible. "BP\&BP" denotes cases in which, for both participants, only their body parts are visible.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 DHR_Verb_Ids are numbers from 1 to 51.
+0:none
 1:punch
 2:kick
 3:give
@@ -68,5 +69,4 @@ DHR_Verb_Ids are numbers from 1 to 51.
 49:gymnastics
 50:race
 51:others
-0: None
 
