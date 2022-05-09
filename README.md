@@ -6,9 +6,9 @@ This note is under construction.
 
 Image_ID: image id of DHR
 
-p1x1,	p1y1,	p1x2 ,p1y2: DHR's person1 bounding box upper left and lower right's x,y coordinate.
+p1x1,	p1y1,	p1x2 ,p1y2: DHR's person1 bounding box upper left and lower right's x,y coordinate. All coordinates are after the image has been scaled to 640 pixels in height or width.
 
-p2x1,	p2y1,	p2x2 ,p2y2: DHR's person2 bounding box upper left and lower right's x,y coordinate.
+p2x1,	p2y1,	p2x2 ,p2y2: DHR's person2 bounding box upper left and lower right's x,y coordinate. All coordinates are after the image has been scaled to 640 pixels in height or width.
 
 DHR_Verb_Id_1,	DHR_Verb_Id_2,	DHR_Verb_Id_3: DHR's verb ID.
 
