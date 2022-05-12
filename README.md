@@ -1,5 +1,5 @@
 # DHR-WebImages
-We introduce the Dyadic Human Relation Web-Based Still Images Dataset (DHR-WebImages) which contains 51 verb classes of DHR (Dyadic Human Relation Recognition) we encounter in our daily lives.
+We introduce the Dyadic Human Relation Web-Based Still Images Dataset (DHR-WebImages) which contains 51 verb classes of DHR (Dyadic Human Relation) we encounter in our daily lives.
 
 This ReadMe explains DHR-WebImages dataset's CSV headers (DHR_train.csv and DHR_test.csv).
 
@@ -13,7 +13,7 @@ p2x1,	p2y1,	p2x2 ,p2y2: DHR's person2 bounding box upper left and lower right's 
 
 DHR_Verb_Id_1,	DHR_Verb_Id_2,	DHR_Verb_Id_3: DHR's verb ID. DHR_Verb_Ids are numbers from 0 to 51.
 
-S_role, O_role: S_role denotes subjective role, and O_role denotes objective role. Number 1 indicates on, Number 0 indicates off.
+p1_role, p2_role: p1_role denotes person1 role type, p2_role denotes person2 role type. There are three types of role, subjective-subjective, subjective-objective, and others-others. p1_role=1, p2_role=1 is subjective-subjective, p1_role=1, p2_role=0 is subjective-objective, and p1_role=0, p2_role=0 is others-others.
 
 Human_visibility: From number 0 to 2. B&B case is 2, B&BP case is 1, BP&BP is 0. "B&B" denotes DHR instances in which, for both people, at least half of their bodies are visible. "B&BP" denotes cases where at least half of one person's body is visible and less than half of the other person's body visible. "BP&BP" denotes cases in which, for both participants, only their body parts are visible.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
