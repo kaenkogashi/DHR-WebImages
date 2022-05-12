@@ -3,7 +3,7 @@ We introduce the Dyadic Human Relation Web-Based Still Images Dataset (DHR-WebIm
 
 This ReadMe explains DHR-WebImages dataset's CSV headers (DHR_train.csv and DHR_test.csv).
 
-Image_ID: Unique image id of DHR-WebImages.
+Image_ID: Unique image id of DHR-WebImages. You can also define it yourself.
 
 URL: Image download URL.
 
