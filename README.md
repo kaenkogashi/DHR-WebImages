@@ -71,7 +71,10 @@ DHR_Verb_Ids are numbers from 0 to 51.
 50:race
 51:others
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+If you find this dataset useful for your research, please consider citing the following papers:
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 @inproceedings{kogashi2022dyadic,
   title = {Dyadic Human Relation Recognition},
   author = {Kogashi, Kaen and Nobuhara, Shohei and Nishino, Ko},
