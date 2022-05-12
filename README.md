@@ -3,13 +3,13 @@ We introduce the Dyadic Human Relation Web-Based Still Images Dataset (DHR-WebIm
 
 This ReadMe explains DHR-WebImages dataset's CSV headers (DHR_train.csv and DHR_test.csv).
 
-Image_ID: image id of DHR.
+Image_ID: Unique image id of DHR-WebImages.
 
 URL: Image download URL.
 
-p1x1,	p1y1,	p1x2 ,p1y2: DHR's person1 bounding box upper left and lower right's x,y coordinate. Please note that all coordinates are after the images have been scaled to 640 pixels in height or width.
+p1x1,	p1y1,	p1x2 ,p1y2: DHR's person1 bounding box upper left and lower right's x,y coordinate. Please note that all coordinates are after the original images have been scaled to 640 pixels in height or width.
 
-p2x1,	p2y1,	p2x2 ,p2y2: DHR's person2 bounding box upper left and lower right's x,y coordinate. Please note that all coordinates are after the images have been scaled to 640 pixels in height or width.
+p2x1,	p2y1,	p2x2 ,p2y2: DHR's person2 bounding box upper left and lower right's x,y coordinate. Please note that all coordinates are after the original images have been scaled to 640 pixels in height or width.
 
 DHR_Verb_Id_1,	DHR_Verb_Id_2,	DHR_Verb_Id_3: DHR's verb ID. DHR_Verb_Ids are numbers from 0 to 51.
 
