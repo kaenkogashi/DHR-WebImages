@@ -12,9 +12,9 @@ p2x1,	p2y1,	p2x2 ,p2y2: DHR's person2 bounding box upper left and lower right's 
 
 DHR_Verb_Id_1,	DHR_Verb_Id_2,	DHR_Verb_Id_3: DHR's verb ID.
 
-S-S, S-0: S-S denotes subjective-subjective and S-O denotes subjective-objective roles' flag. 1 indicates on, 0 indicates off.
+S_role, O_role: S_role denotes subjective role, and O_role denotes objective role. Number 1 indicates on, Number 0 indicates off.
 
-B&B, B&BP, BP&BP: "B&B" denotes DHR instances in which, for both people, at least half of their bodies are visible. "B&BP" denotes cases where at least half of one person's body is visible and less than half of the other person's body visible. "BP\&BP" denotes cases in which, for both participants, only their body parts are visible.
+Human_visibility: From number 0 to 2. B&B case is 2, B&BP case is 1, BP&BP is 0. "B&B" denotes DHR instances in which, for both people, at least half of their bodies are visible. "B&BP" denotes cases where at least half of one person's body is visible and less than half of the other person's body visible. "BP&BP" denotes cases in which, for both participants, only their body parts are visible.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 DHR_Verb_Ids are numbers from 1 to 51.
 0:none
