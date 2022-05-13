@@ -3,8 +3,6 @@ We introduce the Dyadic Human Relation Web-Based Still Images Dataset (DHR-WebIm
 
 This ReadMe explains DHR-WebImages dataset's CSV headers (DHR_train.csv and DHR_test.csv).
 
-Image_ID: Unique image id of DHR-WebImages. You can also define it yourself.
-
 URL: Image download URL.
 
 p1x1,	p1y1,	p1x2 ,p1y2: DHR's person1 bounding box upper left and lower right's x,y coordinate. Please note that all coordinates are after the original images have been scaled to 640 pixels in height or width.
