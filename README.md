@@ -71,6 +71,15 @@ DHR_Verb_Ids are numbers from 0 to 51.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+We made DHR-Generalization from V-COCO and HICO-DET.
+
+The link for the original V-COCO is posted below.
+https://github.com/s-gupta/v-coco
+
+The link for the original HICO-DET is posted below.
+http://www-personal.umich.edu/~ywchao/hico/
+
+
 If you find this dataset useful for your research, please consider citing the following papers:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 @inproceedings{kogashi2022dyadic,
